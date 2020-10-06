@@ -75,10 +75,63 @@ public class SimpleGraphics extends JPanel  {
 		// fillRect(), not drawRect()
 		// also note that I use magic numbers here, just 
 		// because its an example - do not do this in a real project!
+		g.setColor(Color.BLUE);
+		g.fillRect(0, 0, 1000, 1000);
+		
+		g.setColor(Color.YELLOW);
+		g.fillOval(650, 30, 150, 150);
+		
+		g.setColor(Color.ORANGE);
+		g.fillOval(690, 70, 75, 75);
+		
+		g.setColor(Color.YELLOW);
+		g.fillOval(500, 110, 75, 75);
+		
+		g.setColor(Color.ORANGE);
+		g.fillOval(410, 10, 75, 75);
+		
 		g.setColor(Color.RED);
-		g.fillRect(100, 100, 50, 50);
+		g.fillOval(300, 5, 25, 25);
 		
+		g.setColor(Color.GREEN);
+		g.fillOval(230, 3, 60, 60);
 		
+		g.setColor(Color.ORANGE);
+		g.fillOval(140, 3, 40, 40);
+		
+		g.setColor(Color.YELLOW);
+		g.fillOval(25, 5, 75, 75);
+		
+		g.setColor(Color.YELLOW);
+		g.fillOval(140, 100, 60, 60);
+		
+		g.setColor(Color.GREEN);
+		g.fillOval(240, 200, 30, 30);
+		
+		g.setColor(Color.WHITE);
+		g.fillOval(230, 280, 125, 125);
+		
+		g.setColor(Color.GREEN);
+		g.fillOval(100, 250, 45, 45);
+		
+		g.setColor(Color.WHITE);
+		g.fillOval(40, 230, 20, 20);
+		
+		g.setColor(Color.BLACK);
+		g.fillRect(130, 200, 100, 3000);
+		
+		g.setColor(Color.BLACK);
+		g.fillRect(180, 400, 100, 200);
+		
+		g.setColor(Color.BLACK);
+		for (int  i = 300; i < 900; i += 70)
+			g.fillRect(i, 400, 50, 50);
+		
+		for (int  i = 300; i < 900; i += 70)
+			g.fillRect(i, 480, 50, 50);
+		
+		for (int  i = 30; i < 900; i += 70)
+			g.fillRect(i, 320, 50, 50);
 		
 		
 		// there are tons of graphics drawing methods - check them out!
